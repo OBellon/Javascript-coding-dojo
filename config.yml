@@ -1,3 +1,19 @@
 title: The Javascript coding dojo
 tagline: Learn Javascript the fun way
 description: What will we be learning? Prototypes - objects, classes and more!; 'this' usage - bind, call, apply... THIS is the time to learn; Functional programming - map, filter, reduce, side effects?; ES6/ES7 - Let's destructure the dojo!; CSS good practices.
+
+template:
+  name: Javascript-coding-dojo-template
+  repo: Javascript-coding-dojo
+
+# Steps for the course
+# A list of steps that take the learner through the course
+# Create one step for each action that a learner will complete
+
+steps:
+- title: First step
+  description: The first setp in your course
+  event: issues.assigned
+  link: '{{ repoUrl }}'
+  actions:
+  - type: closeIssue
