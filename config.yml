@@ -6,13 +6,15 @@ template:
   name: Javascript-coding-dojo-template
   repo: Javascript-coding-dojo
 
-# Steps for the course
-# A list of steps that take the learner through the course
-# Create one step for each action that a learner will complete
+before:
+  - type: createIssue
+    title: Welcome
+    body: 01-welcome.md
+  - type: updateBranchProtection
 
 steps:
-- title: First step
-  description: The first setp in your course
+- title: Let's make Goku move
+  description: Prototypes, classes 
   event: issues.assigned
   link: '{{ repoUrl }}'
   actions:
